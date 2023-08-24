@@ -1,0 +1,99 @@
+.StatisticsMonitor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.StaticsBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.Stabox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-image: linear-gradient(120deg, #9DC08B 0%, rgb(99, 143, 77) 100%);
+    border: 5px white solid;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    height: 170px;
+}
+
+.Stabox h3,
+.Stabox p {
+    margin: 4px;
+    text-align: center;
+}
+
+.Stabox h3 {
+    font-size: 1.8rem;
+}
+
+.Stabox p {
+    font-size: 1.4rem;
+    color: #EDF1D6;
+}
+
+.Stabox span {
+    color: #22222263;
+}
+
+.StatisticsGraph {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 80px;
+}
+
+#dexscreener-embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 125%;
+}
+
+
+#dexscreener-embed iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+@media (min-width: 1400px) {
+    #dexscreener-embed {
+        padding-bottom: 65%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .StaticsBoxes {
+        width: 99%;
+    }
+
+    .StatisticsGraph {
+        width: 99%;
+    }
+
+    .Stabox {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .StaticsBoxes {
+        flex-direction: column;
+    }
+}

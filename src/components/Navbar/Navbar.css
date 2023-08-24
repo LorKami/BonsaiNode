@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* font-family: 'VT323', monospace; */
+
+h2,
+p {
+    font-family: 'VT323', monospace;
+}
+
+.NavbarSection {
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #40513B;
+    margin-bottom: 50px;
+}
+
+.Navbarboxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    /* border: 2px solid #ff0000; */
+}
+
+.NavbarMenuLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.NavbarMenuLeft a {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'VT323', monospace;
+    color: #EDF1D6;
+    font-size: 30px;
+}
+
+.NavbarMenuLeft a:hover {
+    color: #9DC08B;
+}
+
+.NavbarMenuLeftFix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 72%;
+}
+
+
+.NavbarLogoCenter {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 33%;
+    font-size: 30px;
+    color: #EDF1D6;
+    /* border: 2px solid #1505fc; */
+}
+
+.NavbarLogoCenter img {
+    display: flex;
+    max-width: 100%;
+    height: 120px;
+    width: auto;
+}
+
+.NavbarSocialsRight {
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+    /* border: 2px solid #ccee09; */
+}
+
+.NavbarSocialsRightFix {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 28%;
+    margin-right: 8px;
+    /* border: 2px solid #092bee; */
+}
+
+.NavbarSocialsRightFix a {
+    cursor: pointer;
+    color: #EDF1D6;
+    text-decoration: none;
+}
+
+.NavbarSocialsRightFix a:hover {
+    color: #9DC08B;
+}
+
+@media screen and (max-width: 1024px) {
+    .NavbarSocialsRightFix {
+        width: 40%;
+    }
+
+    .NavbarLogoCenter {
+        width: 20%;
+    }
+
+    .NavbarMenuLeftFix {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .NavbarSection {
+        margin-bottom: 0px;
+    }
+
+    .NavbarLogoCenter {
+        font-size: 1.5rem;
+        color: #EDF1D6;
+    }
+
+    .NavbarMenuLeft a {
+        font-size: 1.5rem;
+    }
+
+    .Navbarboxes {
+        width: 100%;
+    }
+
+    .NavbarSocialsRight {
+        width: 38%;
+    }
+
+    .NavbarMenuLeft {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+    }
+
+    .NavbarSocialsRightFix {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .NavbarSection {
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .NavbarSocialsRight {
+        width: 100%;
+    }
+
+    .NavbarMenuLeft {
+        width: 80%;
+    }
+
+
+    .Navbarboxes {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .NavbarLogoCenter {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .NavbarMenuLeft {
+        width: 90%;
+    }
+}

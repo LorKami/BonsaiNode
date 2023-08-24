@@ -1,0 +1,179 @@
+.MonitorSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.MonitorBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.MonitorBonsai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.MonitorBonsai img {
+    display: flex;
+    max-width: 100%;
+    height: 550px;
+    width: auto;
+}
+
+.MonitorIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.MonitorInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+.MonitorInfo h2 {
+    color: #EDF1D6;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.MonitorInfoText {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.MonitorInfoText p {
+    color: #EDF1D6;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.MonitorButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    margin-top: 30px;
+}
+
+.MonitorButtons a {
+    display: flex;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 18px;
+    border-radius: 15px;
+    color: #EDF1D6;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+    background-image: linear-gradient(120deg, #9DC08B 0%, rgb(99, 143, 77) 100%);
+    transition: background-image 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.MonitorButtons a:hover {
+    background-position: 120% 120%;
+    transform: translateY(2px);
+}
+
+@media screen and (max-width: 1440px) {
+    .MonitorBonsai img {
+        display: flex;
+        max-width: 100%;
+        height: 500px;
+        width: auto;
+    }
+
+    .MonitorInfo {
+        width: 90%;
+        height: 80%;
+    }
+
+    .MonitorButtons a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .MonitorBoxes {
+        width: 90%;
+        height: 400px;
+    }
+
+    .MonitorButtons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        height: 1%;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .MonitorBoxes {
+        width: 100%;
+        height: 100%;
+    }
+
+    .MonitorButtons {
+        width: 80%;
+        height: 1%;
+        margin-top: -100px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .MonitorSection {
+        padding-top: 0px;
+        padding-bottom: 90px;
+    }
+
+
+    .MonitorBoxes {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .MonitorBonsai img {
+        display: flex;
+        max-width: 100%;
+        height: 300px;
+        width: auto;
+    }
+
+    .MonitorButtons {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .MonitorBoxes {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .MonitorSection {
+        padding-bottom: 120px;
+    }
+
+    .MonitorButtons {
+        margin-top: 30px;
+    }
+}
