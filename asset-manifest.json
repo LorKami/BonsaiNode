@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/(https://lorkami.github.io/BonsaiNode/static/css/main.5d9f05e9.css",
+    "main.js": "/(https://lorkami.github.io/BonsaiNode/static/js/main.51950967.js",
+    "static/js/208.90db1313.chunk.js": "/(https://lorkami.github.io/BonsaiNode/static/js/208.90db1313.chunk.js",
+    "static/js/180.26a2f7fb.chunk.js": "/(https://lorkami.github.io/BonsaiNode/static/js/180.26a2f7fb.chunk.js",
+    "static/js/631.08a6aced.chunk.js": "/(https://lorkami.github.io/BonsaiNode/static/js/631.08a6aced.chunk.js",
+    "static/js/409.4c5e5341.chunk.js": "/(https://lorkami.github.io/BonsaiNode/static/js/409.4c5e5341.chunk.js",
+    "static/js/774.02e513bc.chunk.js": "/(https://lorkami.github.io/BonsaiNode/static/js/774.02e513bc.chunk.js",
+    "static/js/315.3f40f316.chunk.js": "/(https://lorkami.github.io/BonsaiNode/static/js/315.3f40f316.chunk.js",
+    "static/js/805.5c9ec440.chunk.js": "/(https://lorkami.github.io/BonsaiNode/static/js/805.5c9ec440.chunk.js",
+    "static/media/bonsai3.png": "/(https://lorkami.github.io/BonsaiNode/static/media/bonsai3.0f63f12ce826da1a8d6c.png",
+    "static/media/bonsai2.png": "/(https://lorkami.github.io/BonsaiNode/static/media/bonsai2.ad57f34606772c57d49b.png",
+    "static/media/bonsai1.png": "/(https://lorkami.github.io/BonsaiNode/static/media/bonsai1.88a16735f3d8379bdec8.png",
+    "index.html": "/(https://lorkami.github.io/BonsaiNode/index.html",
+    "main.5d9f05e9.css.map": "/(https://lorkami.github.io/BonsaiNode/static/css/main.5d9f05e9.css.map",
+    "main.51950967.js.map": "/(https://lorkami.github.io/BonsaiNode/static/js/main.51950967.js.map",
+    "208.90db1313.chunk.js.map": "/(https://lorkami.github.io/BonsaiNode/static/js/208.90db1313.chunk.js.map",
+    "180.26a2f7fb.chunk.js.map": "/(https://lorkami.github.io/BonsaiNode/static/js/180.26a2f7fb.chunk.js.map",
+    "631.08a6aced.chunk.js.map": "/(https://lorkami.github.io/BonsaiNode/static/js/631.08a6aced.chunk.js.map",
+    "409.4c5e5341.chunk.js.map": "/(https://lorkami.github.io/BonsaiNode/static/js/409.4c5e5341.chunk.js.map",
+    "774.02e513bc.chunk.js.map": "/(https://lorkami.github.io/BonsaiNode/static/js/774.02e513bc.chunk.js.map",
+    "315.3f40f316.chunk.js.map": "/(https://lorkami.github.io/BonsaiNode/static/js/315.3f40f316.chunk.js.map",
+    "805.5c9ec440.chunk.js.map": "/(https://lorkami.github.io/BonsaiNode/static/js/805.5c9ec440.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d9f05e9.css",
+    "static/js/main.51950967.js"
+  ]
+}
